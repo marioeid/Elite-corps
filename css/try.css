@@ -101,8 +101,11 @@ body {
 }
 .slider .carousel-one {
   background: url(../img/01.jpg);
-  height: auto;
-  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .slider .carousel-two {
@@ -342,8 +345,7 @@ body {
   height: 4px;
   cursor: pointer;
 }
-.testimonials .carousel-control-prev-icon {
-}
+
 /* en testimonials */
 /* st pricing-table */
 .pricing-table {
